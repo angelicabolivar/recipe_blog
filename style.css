@@ -37,10 +37,10 @@ header {
     width: 100%;
     border-radius: 24px;
 }
-.cook_time {
+.cook__time {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(2 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 .cook__time-item {
     display: flex;
