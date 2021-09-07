@@ -30,21 +30,39 @@ header {
     font-size: 12px;
     color: #4F4F4F;
     font-weight: 500;
+    font-style: italic;
     padding-left: 12px;
     padding-bottom: 12px;
 }
 .header_img {
     width: 100%;
+    height: auto;
     border-radius: 24px;
 }
 .cook__time {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "yields . ."
+    "prep cook total";
+}
+.yields {
+    grid-area: yields;
+}
+.prep {
+    grid-area: prep;
+}
+.cook {
+    grid-area:cook;
+}
+.total {
+    grid-area: total;
 }
 .cook__time-item {
     display: flex;
     align-items: center;
+    padding: 20px 12px 0px 12px;
 }
 .cook__time-item img {
     width: 14px;
@@ -65,3 +83,123 @@ header {
     color: #333333;
 
 }
+.items {
+    padding: 30px 12px 0px 12px;
+}
+.items__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    padding-bottom: 13px;
+}
+.items__subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    color: #333333;
+    padding-bottom: 23px;
+}
+.list {
+    display:flex;
+    flex-direction: column;
+}
+.list label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+    padding-bottom: 12px;
+    
+    
+}
+.list label span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+}
+.recipe {
+    margin: 30px 12px;
+}
+.recipe_title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    padding-bottom: 28px;
+    
+}
+.recipe_items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.number {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #F2994A;
+    border-radius: 6px;
+    padding: 8px 13px 13px 13px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+
+}
+.recipe_parraf {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    padding-right: 12px;
+    line-height: 24px;
+}
+.recipe_parraf span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:#333333;  
+}
+.source {
+    padding-left: 12px;
+}
+.source p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #BDBDBD;
+    line-height: 18px;
+}
+.source a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: italic;
+    color: #BDBDBD;
+    line-height: 18px;
+    text-decoration: none;
+
+}
+footer  {
+    position: relative;
+    top:100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #828282;
+    font-weight: 500px;
+    text-align: center;
+}
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #828282;
+    font-weight: 700px;
+}
+
