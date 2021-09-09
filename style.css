@@ -7,8 +7,6 @@ header {
     margin-top: 32px;
     margin-left: 11px;
     margin-right: 12px;
-    padding-bottom: 24px;
-    
 }
 .header__title {
     font-family: 'Playfair Display', serif;
@@ -215,7 +213,7 @@ footer a {
 
 @media (min-width:600px) {
     header {
-        margin: 52px 230px;
+        margin: 52px 230px 20px 230px;
     }
     .header__title {
         font-size: 48px;
@@ -236,8 +234,8 @@ footer a {
     }
     .cook__time {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 180px);
+        grid-template-rows: repeat(4, 80px);
         grid-auto-flow: column;
         grid-template-areas: 
         "yields"
@@ -247,6 +245,20 @@ footer a {
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         border-radius: 12px;
         height: 367px;
+        justify-items: center;
+        align-items: end;
+        margin-top: 37px;
+}
+.cook__time-item img {
+    width: 26px;
+    height: 26px;
+    margin-right: 6px;
+}
+.cook__time-title p:nth-child(odd) {
+    font-size: 10px;
+}
+.cook__time-title p:nth-child(even) {
+    font-size: 10px;
 }
 .items__title {
     font-size: 24px;
@@ -266,4 +278,5 @@ footer a {
 }
 .recipe_items {
     margin-bottom: 20px;
+}
 }
