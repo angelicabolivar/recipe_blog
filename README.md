@@ -38,13 +38,21 @@
 ## Overview
 
 ![screenshot](/images/img_cap.png)
+![screenshot](/images/ingredient_cap.png)
+![screenshot](/images/mobile_1.png)
+![screenshot](/images/mobile_2.png)
+![screenshot](/images/mobile_3.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+
+
 - What was your experience?
+
+  It was a very interesting experience because I was able to practice CSS grid, and I was able to experiment and understand many concepts!
 - What have you learned/improved?
-- Your wisdom? :)
+
+  CSS grid I have definitely seen it in a better way
+
 
 ### Built With
 
